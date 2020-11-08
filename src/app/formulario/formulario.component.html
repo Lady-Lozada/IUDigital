@@ -1,0 +1,25 @@
+<div>
+  <form [formGroup]="formColaboradores">
+    <div class="form-group">
+      <label for="Nombre">Nombre</label>
+      <input formControlName="nombre" type="text" class="form-control" id="Nombre" aria-describedby="emailHelp" placeholder="Nombre">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputEmail1">Apellido</label>
+      <input formControlName="apellido" type="text" class="form-control" id="Apellido" aria-describedby="emailHelp" placeholder="Apellido">
+    </div>
+    <div class="form-group">
+      <label for="Cargo">Cargo</label>
+      <input formControlName="cargo" type="text" class="form-control" id="Cargo" aria-describedby="emailHelp" placeholder="Cargo">
+    </div>
+    <div class="form-group">
+      <label for="Identificacion">Identificación</label>
+      <input formControlName="id" type="text" class="form-control" id="Identificacion" aria-describedby="emailHelp" placeholder="Identificación">
+    </div>
+    <div class="form-group">
+      <label for="Usuario de red">Usuario de red</label>
+      <input formControlName="usuarioRed" type="text" class="form-control" id="Usuario de red" aria-describedby="emailHelp" placeholder="Usuario de red">
+    </div>
+    <button type="submit" class="btn btn-primary" (click)="guardar()">Guardar</button>
+  </form>
+</div>

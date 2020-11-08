@@ -1,0 +1,12 @@
+.contenedor_final{
+  background: black;
+  color: white;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img{
+  width: 30px;
+  height: 30px;
+}
